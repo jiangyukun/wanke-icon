@@ -1,0 +1,21 @@
+{
+  "name": "wanke-icon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^16.13.1"
+  },
+  "dependencies": {
+    "@ant-design/colors": "^4.0.0",
+    "@types/react": "^16.9.31",
+    "classnames": "^2.2.6",
+    "insert-css": "^2.0.0",
+    "rc-util": "^4.20.3"
+  }
+}
