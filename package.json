@@ -1,6 +1,6 @@
 {
   "name": "wanke-icon",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "svg图标库",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,7 @@
   "peerDependencies": {
     "react": "^16.13.1"
   },
+  "files": ["lib", "package.json"],
   "dependencies": {
     "@ant-design/colors": "^4.0.0",
     "@types/react": "^16.9.31",
