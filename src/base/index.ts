@@ -422,81 +422,81 @@ export { default as FolderOpenTwoTone } from './asn/FolderOpenTwoTone';
 
 export { default as ExclamationCircleFilled } from './asn/ExclamationCircleFilled';
 
-export { default as FolderTwoTone } from './asn/FolderTwoTone';
-
 export { default as CiOutlined } from './asn/CiOutlined';
+
+export { default as FolderTwoTone } from './asn/FolderTwoTone';
 
 export { default as ExperimentFilled } from './asn/ExperimentFilled';
 
-export { default as FrownTwoTone } from './asn/FrownTwoTone';
-
 export { default as ClearOutlined } from './asn/ClearOutlined';
+
+export { default as FrownTwoTone } from './asn/FrownTwoTone';
 
 export { default as EyeInvisibleFilled } from './asn/EyeInvisibleFilled';
 
-export { default as FundTwoTone } from './asn/FundTwoTone';
-
 export { default as ClockCircleOutlined } from './asn/ClockCircleOutlined';
+
+export { default as FundTwoTone } from './asn/FundTwoTone';
 
 export { default as EyeFilled } from './asn/EyeFilled';
 
-export { default as FunnelPlotTwoTone } from './asn/FunnelPlotTwoTone';
-
 export { default as CloseCircleOutlined } from './asn/CloseCircleOutlined';
+
+export { default as FunnelPlotTwoTone } from './asn/FunnelPlotTwoTone';
 
 export { default as FacebookFilled } from './asn/FacebookFilled';
 
-export { default as GiftTwoTone } from './asn/GiftTwoTone';
-
 export { default as CloseSquareOutlined } from './asn/CloseSquareOutlined';
+
+export { default as GiftTwoTone } from './asn/GiftTwoTone';
 
 export { default as FastBackwardFilled } from './asn/FastBackwardFilled';
 
-export { default as GoldTwoTone } from './asn/GoldTwoTone';
-
 export { default as CloseOutlined } from './asn/CloseOutlined';
+
+export { default as GoldTwoTone } from './asn/GoldTwoTone';
 
 export { default as FastForwardFilled } from './asn/FastForwardFilled';
 
-export { default as HddTwoTone } from './asn/HddTwoTone';
-
 export { default as CloudDownloadOutlined } from './asn/CloudDownloadOutlined';
+
+export { default as HddTwoTone } from './asn/HddTwoTone';
 
 export { default as FileAddFilled } from './asn/FileAddFilled';
 
-export { default as HeartTwoTone } from './asn/HeartTwoTone';
-
 export { default as CloudServerOutlined } from './asn/CloudServerOutlined';
+
+export { default as HeartTwoTone } from './asn/HeartTwoTone';
 
 export { default as FileExcelFilled } from './asn/FileExcelFilled';
 
-export { default as HighlightTwoTone } from './asn/HighlightTwoTone';
-
 export { default as CloudSyncOutlined } from './asn/CloudSyncOutlined';
+
+export { default as HighlightTwoTone } from './asn/HighlightTwoTone';
 
 export { default as FileExclamationFilled } from './asn/FileExclamationFilled';
 
-export { default as HomeTwoTone } from './asn/HomeTwoTone';
-
 export { default as CloudUploadOutlined } from './asn/CloudUploadOutlined';
+
+export { default as HomeTwoTone } from './asn/HomeTwoTone';
 
 export { default as FileImageFilled } from './asn/FileImageFilled';
 
-export { default as HourglassTwoTone } from './asn/HourglassTwoTone';
-
 export { default as CloudOutlined } from './asn/CloudOutlined';
+
+export { default as HourglassTwoTone } from './asn/HourglassTwoTone';
 
 export { default as FileMarkdownFilled } from './asn/FileMarkdownFilled';
 
-export { default as Html5TwoTone } from './asn/Html5TwoTone';
-
 export { default as ClusterOutlined } from './asn/ClusterOutlined';
+
+export { default as Html5TwoTone } from './asn/Html5TwoTone';
 
 export { default as FilePdfFilled } from './asn/FilePdfFilled';
 
-export { default as IdcardTwoTone } from './asn/IdcardTwoTone';
-
 export { default as CodeSandboxOutlined } from './asn/CodeSandboxOutlined';
+
+export { default as IdcardTwoTone } from './asn/IdcardTwoTone';
 
 export { default as FilePptFilled } from './asn/FilePptFilled';
 
@@ -662,171 +662,171 @@ export { default as PrinterTwoTone } from './asn/PrinterTwoTone';
 
 export { default as HeartFilled } from './asn/HeartFilled';
 
-export { default as ProfileTwoTone } from './asn/ProfileTwoTone';
-
 export { default as DesktopOutlined } from './asn/DesktopOutlined';
+
+export { default as ProfileTwoTone } from './asn/ProfileTwoTone';
 
 export { default as HighlightFilled } from './asn/HighlightFilled';
 
-export { default as ProjectTwoTone } from './asn/ProjectTwoTone';
-
 export { default as DiffOutlined } from './asn/DiffOutlined';
+
+export { default as ProjectTwoTone } from './asn/ProjectTwoTone';
 
 export { default as HomeFilled } from './asn/HomeFilled';
 
-export { default as PropertySafetyTwoTone } from './asn/PropertySafetyTwoTone';
-
 export { default as DingdingOutlined } from './asn/DingdingOutlined';
+
+export { default as PropertySafetyTwoTone } from './asn/PropertySafetyTwoTone';
 
 export { default as HourglassFilled } from './asn/HourglassFilled';
 
-export { default as PushpinTwoTone } from './asn/PushpinTwoTone';
-
 export { default as DingtalkOutlined } from './asn/DingtalkOutlined';
+
+export { default as PushpinTwoTone } from './asn/PushpinTwoTone';
 
 export { default as Html5Filled } from './asn/Html5Filled';
 
-export { default as QuestionCircleTwoTone } from './asn/QuestionCircleTwoTone';
-
 export { default as DisconnectOutlined } from './asn/DisconnectOutlined';
+
+export { default as QuestionCircleTwoTone } from './asn/QuestionCircleTwoTone';
 
 export { default as IdcardFilled } from './asn/IdcardFilled';
 
-export { default as ReconciliationTwoTone } from './asn/ReconciliationTwoTone';
-
 export { default as DislikeOutlined } from './asn/DislikeOutlined';
+
+export { default as ReconciliationTwoTone } from './asn/ReconciliationTwoTone';
 
 export { default as IeCircleFilled } from './asn/IeCircleFilled';
 
-export { default as RedEnvelopeTwoTone } from './asn/RedEnvelopeTwoTone';
-
 export { default as DollarCircleOutlined } from './asn/DollarCircleOutlined';
+
+export { default as RedEnvelopeTwoTone } from './asn/RedEnvelopeTwoTone';
 
 export { default as IeSquareFilled } from './asn/IeSquareFilled';
 
-export { default as RestTwoTone } from './asn/RestTwoTone';
-
 export { default as DollarOutlined } from './asn/DollarOutlined';
+
+export { default as RestTwoTone } from './asn/RestTwoTone';
 
 export { default as InfoCircleFilled } from './asn/InfoCircleFilled';
 
-export { default as RightCircleTwoTone } from './asn/RightCircleTwoTone';
-
 export { default as DotChartOutlined } from './asn/DotChartOutlined';
+
+export { default as RightCircleTwoTone } from './asn/RightCircleTwoTone';
 
 export { default as InstagramFilled } from './asn/InstagramFilled';
 
-export { default as RightSquareTwoTone } from './asn/RightSquareTwoTone';
-
 export { default as DoubleLeftOutlined } from './asn/DoubleLeftOutlined';
+
+export { default as RightSquareTwoTone } from './asn/RightSquareTwoTone';
 
 export { default as InsuranceFilled } from './asn/InsuranceFilled';
 
-export { default as RocketTwoTone } from './asn/RocketTwoTone';
-
 export { default as DoubleRightOutlined } from './asn/DoubleRightOutlined';
+
+export { default as RocketTwoTone } from './asn/RocketTwoTone';
 
 export { default as InteractionFilled } from './asn/InteractionFilled';
 
-export { default as SafetyCertificateTwoTone } from './asn/SafetyCertificateTwoTone';
-
 export { default as DownCircleOutlined } from './asn/DownCircleOutlined';
+
+export { default as SafetyCertificateTwoTone } from './asn/SafetyCertificateTwoTone';
 
 export { default as LayoutFilled } from './asn/LayoutFilled';
 
-export { default as SaveTwoTone } from './asn/SaveTwoTone';
-
 export { default as DownSquareOutlined } from './asn/DownSquareOutlined';
+
+export { default as SaveTwoTone } from './asn/SaveTwoTone';
 
 export { default as LeftCircleFilled } from './asn/LeftCircleFilled';
 
-export { default as ScheduleTwoTone } from './asn/ScheduleTwoTone';
-
 export { default as DownOutlined } from './asn/DownOutlined';
+
+export { default as ScheduleTwoTone } from './asn/ScheduleTwoTone';
 
 export { default as LeftSquareFilled } from './asn/LeftSquareFilled';
 
-export { default as SecurityScanTwoTone } from './asn/SecurityScanTwoTone';
-
 export { default as DownloadOutlined } from './asn/DownloadOutlined';
+
+export { default as SecurityScanTwoTone } from './asn/SecurityScanTwoTone';
 
 export { default as LikeFilled } from './asn/LikeFilled';
 
-export { default as SettingTwoTone } from './asn/SettingTwoTone';
-
 export { default as DragOutlined } from './asn/DragOutlined';
+
+export { default as SettingTwoTone } from './asn/SettingTwoTone';
 
 export { default as LinkedinFilled } from './asn/LinkedinFilled';
 
-export { default as ShopTwoTone } from './asn/ShopTwoTone';
-
 export { default as DribbbleSquareOutlined } from './asn/DribbbleSquareOutlined';
+
+export { default as ShopTwoTone } from './asn/ShopTwoTone';
 
 export { default as LockFilled } from './asn/LockFilled';
 
-export { default as ShoppingTwoTone } from './asn/ShoppingTwoTone';
-
 export { default as DribbbleOutlined } from './asn/DribbbleOutlined';
+
+export { default as ShoppingTwoTone } from './asn/ShoppingTwoTone';
 
 export { default as MacCommandFilled } from './asn/MacCommandFilled';
 
-export { default as SkinTwoTone } from './asn/SkinTwoTone';
-
 export { default as DropboxOutlined } from './asn/DropboxOutlined';
+
+export { default as SkinTwoTone } from './asn/SkinTwoTone';
 
 export { default as MailFilled } from './asn/MailFilled';
 
-export { default as SlidersTwoTone } from './asn/SlidersTwoTone';
-
 export { default as EditOutlined } from './asn/EditOutlined';
+
+export { default as SlidersTwoTone } from './asn/SlidersTwoTone';
 
 export { default as MedicineBoxFilled } from './asn/MedicineBoxFilled';
 
-export { default as SmileTwoTone } from './asn/SmileTwoTone';
-
 export { default as EllipsisOutlined } from './asn/EllipsisOutlined';
+
+export { default as SmileTwoTone } from './asn/SmileTwoTone';
 
 export { default as MediumCircleFilled } from './asn/MediumCircleFilled';
 
-export { default as SnippetsTwoTone } from './asn/SnippetsTwoTone';
-
 export { default as EnterOutlined } from './asn/EnterOutlined';
+
+export { default as SnippetsTwoTone } from './asn/SnippetsTwoTone';
 
 export { default as MediumSquareFilled } from './asn/MediumSquareFilled';
 
-export { default as SoundTwoTone } from './asn/SoundTwoTone';
-
 export { default as EnvironmentOutlined } from './asn/EnvironmentOutlined';
+
+export { default as SoundTwoTone } from './asn/SoundTwoTone';
 
 export { default as MehFilled } from './asn/MehFilled';
 
-export { default as StarTwoTone } from './asn/StarTwoTone';
-
 export { default as EuroCircleOutlined } from './asn/EuroCircleOutlined';
+
+export { default as StarTwoTone } from './asn/StarTwoTone';
 
 export { default as MessageFilled } from './asn/MessageFilled';
 
-export { default as StopTwoTone } from './asn/StopTwoTone';
-
 export { default as EuroOutlined } from './asn/EuroOutlined';
+
+export { default as StopTwoTone } from './asn/StopTwoTone';
 
 export { default as MinusCircleFilled } from './asn/MinusCircleFilled';
 
-export { default as SwitcherTwoTone } from './asn/SwitcherTwoTone';
-
 export { default as ExceptionOutlined } from './asn/ExceptionOutlined';
+
+export { default as SwitcherTwoTone } from './asn/SwitcherTwoTone';
 
 export { default as MinusSquareFilled } from './asn/MinusSquareFilled';
 
-export { default as TabletTwoTone } from './asn/TabletTwoTone';
-
 export { default as ExclamationCircleOutlined } from './asn/ExclamationCircleOutlined';
+
+export { default as TabletTwoTone } from './asn/TabletTwoTone';
 
 export { default as MobileFilled } from './asn/MobileFilled';
 
-export { default as TagTwoTone } from './asn/TagTwoTone';
-
 export { default as ExclamationOutlined } from './asn/ExclamationOutlined';
+
+export { default as TagTwoTone } from './asn/TagTwoTone';
 
 export { default as MoneyCollectFilled } from './asn/MoneyCollectFilled';
 
@@ -860,45 +860,45 @@ export { default as EyeInvisibleOutlined } from './asn/EyeInvisibleOutlined';
 
 export { default as PictureFilled } from './asn/PictureFilled';
 
-export { default as UnlockTwoTone } from './asn/UnlockTwoTone';
-
 export { default as EyeOutlined } from './asn/EyeOutlined';
+
+export { default as UnlockTwoTone } from './asn/UnlockTwoTone';
 
 export { default as PieChartFilled } from './asn/PieChartFilled';
 
-export { default as UpCircleTwoTone } from './asn/UpCircleTwoTone';
-
 export { default as FacebookOutlined } from './asn/FacebookOutlined';
+
+export { default as UpCircleTwoTone } from './asn/UpCircleTwoTone';
 
 export { default as PlayCircleFilled } from './asn/PlayCircleFilled';
 
-export { default as UpSquareTwoTone } from './asn/UpSquareTwoTone';
-
 export { default as FallOutlined } from './asn/FallOutlined';
+
+export { default as UpSquareTwoTone } from './asn/UpSquareTwoTone';
 
 export { default as PlaySquareFilled } from './asn/PlaySquareFilled';
 
-export { default as UsbTwoTone } from './asn/UsbTwoTone';
-
 export { default as FastBackwardOutlined } from './asn/FastBackwardOutlined';
+
+export { default as UsbTwoTone } from './asn/UsbTwoTone';
 
 export { default as PlusCircleFilled } from './asn/PlusCircleFilled';
 
-export { default as VideoCameraTwoTone } from './asn/VideoCameraTwoTone';
-
 export { default as FastForwardOutlined } from './asn/FastForwardOutlined';
+
+export { default as VideoCameraTwoTone } from './asn/VideoCameraTwoTone';
 
 export { default as PlusSquareFilled } from './asn/PlusSquareFilled';
 
-export { default as WalletTwoTone } from './asn/WalletTwoTone';
-
 export { default as FieldBinaryOutlined } from './asn/FieldBinaryOutlined';
+
+export { default as WalletTwoTone } from './asn/WalletTwoTone';
 
 export { default as PoundCircleFilled } from './asn/PoundCircleFilled';
 
-export { default as WarningTwoTone } from './asn/WarningTwoTone';
-
 export { default as FieldNumberOutlined } from './asn/FieldNumberOutlined';
+
+export { default as WarningTwoTone } from './asn/WarningTwoTone';
 
 export { default as PrinterFilled } from './asn/PrinterFilled';
 
@@ -1132,59 +1132,63 @@ export { default as WalletFilled } from './asn/WalletFilled';
 
 export { default as HourglassOutlined } from './asn/HourglassOutlined';
 
-export { default as WankeAppleFilled } from './asn/WankeAppleFilled';
+export { default as WankeAndroidFilled } from './asn/WankeAndroidFilled';
 
 export { default as Html5Outlined } from './asn/Html5Outlined';
 
-export { default as WankeLogoFilled } from './asn/WankeLogoFilled';
+export { default as WankeAppleFilled } from './asn/WankeAppleFilled';
 
 export { default as IdcardOutlined } from './asn/IdcardOutlined';
 
-export { default as WankeSelectionFilled } from './asn/WankeSelectionFilled';
+export { default as WankeLogoFilled } from './asn/WankeLogoFilled';
 
 export { default as IeOutlined } from './asn/IeOutlined';
 
-export { default as WarningFilled } from './asn/WarningFilled';
+export { default as WankeSelectionFilled } from './asn/WankeSelectionFilled';
 
 export { default as ImportOutlined } from './asn/ImportOutlined';
 
-export { default as WechatFilled } from './asn/WechatFilled';
+export { default as WankeUseElectricityFilled } from './asn/WankeUseElectricityFilled';
 
 export { default as InboxOutlined } from './asn/InboxOutlined';
 
-export { default as WeiboCircleFilled } from './asn/WeiboCircleFilled';
+export { default as WarningFilled } from './asn/WarningFilled';
 
 export { default as InfoCircleOutlined } from './asn/InfoCircleOutlined';
 
-export { default as WeiboSquareFilled } from './asn/WeiboSquareFilled';
+export { default as WechatFilled } from './asn/WechatFilled';
 
 export { default as InfoOutlined } from './asn/InfoOutlined';
 
-export { default as WindowsFilled } from './asn/WindowsFilled';
+export { default as WeiboCircleFilled } from './asn/WeiboCircleFilled';
 
 export { default as InsertRowAboveOutlined } from './asn/InsertRowAboveOutlined';
 
-export { default as YahooFilled } from './asn/YahooFilled';
+export { default as WeiboSquareFilled } from './asn/WeiboSquareFilled';
 
 export { default as InsertRowBelowOutlined } from './asn/InsertRowBelowOutlined';
 
-export { default as YoutubeFilled } from './asn/YoutubeFilled';
+export { default as WindowsFilled } from './asn/WindowsFilled';
 
 export { default as InsertRowLeftOutlined } from './asn/InsertRowLeftOutlined';
 
-export { default as YuqueFilled } from './asn/YuqueFilled';
+export { default as YahooFilled } from './asn/YahooFilled';
 
 export { default as InsertRowRightOutlined } from './asn/InsertRowRightOutlined';
 
-export { default as ZhihuCircleFilled } from './asn/ZhihuCircleFilled';
+export { default as YoutubeFilled } from './asn/YoutubeFilled';
 
 export { default as InstagramOutlined } from './asn/InstagramOutlined';
 
-export { default as ZhihuSquareFilled } from './asn/ZhihuSquareFilled';
+export { default as YuqueFilled } from './asn/YuqueFilled';
 
 export { default as InsuranceOutlined } from './asn/InsuranceOutlined';
 
+export { default as ZhihuCircleFilled } from './asn/ZhihuCircleFilled';
+
 export { default as InteractionOutlined } from './asn/InteractionOutlined';
+
+export { default as ZhihuSquareFilled } from './asn/ZhihuSquareFilled';
 
 export { default as IssuesCloseOutlined } from './asn/IssuesCloseOutlined';
 
@@ -1564,8 +1568,6 @@ export { default as WankeAddressOutlined } from './asn/WankeAddressOutlined';
 
 export { default as WankeAnalazyOutlined } from './asn/WankeAnalazyOutlined';
 
-export { default as WankeAndroidOutlined } from './asn/WankeAndroidOutlined';
-
 export { default as WankeBatteryOutlined } from './asn/WankeBatteryOutlined';
 
 export { default as WankeBeforeOutlined } from './asn/WankeBeforeOutlined';
@@ -1681,8 +1683,6 @@ export { default as WankeSettingOutlined } from './asn/WankeSettingOutlined';
 export { default as WankeStationOutlined } from './asn/WankeStationOutlined';
 
 export { default as WankeSummaryOutlined } from './asn/WankeSummaryOutlined';
-
-export { default as WankeTest1Outlined } from './asn/WankeTest1Outlined';
 
 export { default as WankeTimeOutlined } from './asn/WankeTimeOutlined';
 
