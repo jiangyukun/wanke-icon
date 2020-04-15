@@ -4,17 +4,27 @@
   "description": "svg图标库",
   "main": "index.js",
   "scripts": {
-    "build": "tsc --outDir ./lib"
+    "build": "babel src -d lib -x .ts,.tsx"
   },
   "author": "",
   "license": "ISC",
   "peerDependencies": {
     "react": "^16.13.1"
   },
-  "files": ["lib", "package.json"],
+  "files": [
+    "lib",
+    "package.json"
+  ],
   "dependencies": {
     "@ant-design/colors": "^4.0.0",
+    "@ant-design/icons": "^4.0.6",
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "@babel/preset-typescript": "^7.9.0",
     "@types/react": "^16.9.31",
+    "babel-preset-env": "^1.7.0",
     "classnames": "^2.2.6",
     "insert-css": "^2.0.0",
     "rc-util": "^4.20.3"
