@@ -3,9 +3,17 @@ import classNames from 'classnames';
 
 import { svgBaseProps, warning, useInsertStyles } from '../utils';
 
-export interface IconBaseProps extends React.HTMLProps<HTMLSpanElement> {
+export interface IconBaseProps {
+  tabIndex?: number;
+  className?: string;
+  title?: string;
+  onKeyUp?: React.KeyboardEventHandler<HTMLElement>;
+  onClick?: React.MouseEventHandler<HTMLElement>;
+  style?: React.CSSProperties;
+  role?: string;
   spin?: boolean;
   rotate?: number;
+  children?: React.ReactNode;
 }
 
 export interface CustomIconComponentProps {
@@ -22,6 +30,7 @@ export interface IconComponentProps extends IconBaseProps {
   component?: React.ComponentType<CustomIconComponentProps | React.SVGProps<SVGSVGElement>>;
   ariaLabel?: React.AriaAttributes['aria-label'];
 }
+
 
 const Icon = React.forwardRef<HTMLSpanElement, IconComponentProps>((props, ref) => {
   const {

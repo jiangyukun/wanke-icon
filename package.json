@@ -2,7 +2,7 @@
   "name": "wanke-icon",
   "version": "1.0.6",
   "description": "svg图标库",
-  "main": "index.js",
+  "main": "./lib/icons/index.js",
   "scripts": {
     "build": "babel src -d lib -x .ts,.tsx"
   },
