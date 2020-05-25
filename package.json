@@ -1,6 +1,6 @@
 {
   "name": "wanke-icon",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "svg图标库",
   "main": "./lib/icons/index.js",
   "scripts": {
