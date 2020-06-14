@@ -1,6 +1,7 @@
 lib
 yarn.lock
 node_modules
-src
+src/base
+src/icons
 .idea
 inline-svg
