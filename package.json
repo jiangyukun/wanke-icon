@@ -4,13 +4,9 @@
   "description": "svg图标库",
   "main": "./lib/icons/index.js",
   "scripts": {
-    "generate": "cross-env NODE_ENV=production gulp --require ts-node/register/transpile-only",
-    "build:es": "tsc --project tsconfig.build.json --module esnext --outDir es",
-    "build:lib": "tsc --project tsconfig.build.json --module commonjs --outDir lib",
-    "build": "cross-env NODE_ENV=production && npm run build:es && npm run build:lib",
-    "generate1": "rimraf src/icons && TS_NODE_PROJECT=scripts/tsconfig.json node -r ts-node/register scripts/generate.ts --target=icon",
-
-    "pub": "tsc --outDir ./lib"
+    "svg": "cross-env NODE_ENV=production gulp --require ts-node/register/transpile-only",
+    "icon": "rimraf src/icons && TS_NODE_PROJECT=scripts/tsconfig.json node -r ts-node/register scripts/generate.ts --target=icon",
+    "build": "npm run svg && npm run icon && tsc --outDir ./lib"
   },
   "author": "",
   "license": "ISC",
