@@ -3,8 +3,8 @@ import svgo from '../../plugins/svgo';
 import {
   getIdentifier,
   getSrcByTheme,
-  getInlinePathByTheme
-} from '../../build/helpers';
+  getInlinePathByTheme, getAntdIconSrcByTheme
+} from '../../build/helpers'
 import merge from 'merge-stream';
 import { singleColorSVGOConfig } from '../../build/svgo-options';
 import iconDefinition from '../../plugins/icon-definition';
@@ -29,7 +29,7 @@ const { Outlined } = ThemeUpperCaseEnum;
  * 3. inline-svg/<theme>/*.svg
  */
 export default function generateOutlinedIcons(): NodeJS.ReadWriteStream {
-  const iconDefinitionStream = src(getSrcByTheme(outlined))
+  const iconDefinitionStream = src([getSrcByTheme(outlined), getAntdIconSrcByTheme(outlined)])
     .pipe(svgo(singleColorSVGOConfig))
     .pipe(
       iconDefinition({

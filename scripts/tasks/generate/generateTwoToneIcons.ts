@@ -3,8 +3,8 @@ import svgo from '../../plugins/svgo';
 import {
   getIdentifier,
   getSrcByTheme,
-  getInlinePathByTheme
-} from '../../build/helpers';
+  getInlinePathByTheme, getAntdIconSrcByTheme
+} from '../../build/helpers'
 import merge from 'merge-stream';
 import { twoToneSVGOConfig } from '../../build/svgo-options';
 import iconDefinition from '../../plugins/icon-definition';
@@ -31,7 +31,7 @@ const { TwoTone } = ThemeUpperCaseEnum;
  * 3. inline-svg/<theme>/*.svg
  */
 export default function generateTwoToneIcons(): NodeJS.ReadWriteStream {
-  const iconDefinitionStream = src(getSrcByTheme(twotone))
+  const iconDefinitionStream = src(getAntdIconSrcByTheme(twotone))
     .pipe(svgo(twoToneSVGOConfig))
     .pipe(
       iconDefinition({

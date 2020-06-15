@@ -47,7 +47,13 @@ export function iconsAfter3Dot9ShouldBeResizeViewbox({
   abstractNode,
   iconName
 }: AbstractNodeAndIconName): AbstractNodeAndIconName {
-  if (abstractNode.tag === 'svg' && !oldIconNames.includes(iconName)) {
+  if (
+    abstractNode.tag === 'svg'
+    && !oldIconNames.includes(iconName)
+    && iconName.indexOf('wanke') == -1
+    && iconName.indexOf('gf') == -1
+    && iconName.indexOf('fz') == -1
+  ) {
     // make it immutable!
     abstractNode = {
       ...abstractNode,

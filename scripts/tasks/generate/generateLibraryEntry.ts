@@ -1,5 +1,5 @@
 import { src, dest } from 'gulp';
-import { getIdentifier, getSrcByTheme } from '../../build/helpers';
+import { getAntdIconSrcByTheme, getIdentifier, getSrcByTheme } from '../../build/helpers'
 import {
   ThemeUpperCaseEnum,
   ThemeLowerCaseEnum,
@@ -22,13 +22,13 @@ const { Filled, Outlined, TwoTone } = ThemeUpperCaseEnum;
  */
 export default function generateLibraryEntry() {
   return merge(
-    src(getSrcByTheme(filled)).pipe(
+    src([getSrcByTheme(filled), getAntdIconSrcByTheme(filled)]).pipe(
       useTemplate(getOptions({ themeSuffix: Filled }))
     ),
-    src(getSrcByTheme(outlined)).pipe(
+    src([getSrcByTheme(outlined), getAntdIconSrcByTheme(outlined)]).pipe(
       useTemplate(getOptions({ themeSuffix: Outlined }))
     ),
-    src(getSrcByTheme(twotone)).pipe(
+    src([getSrcByTheme(twotone),getAntdIconSrcByTheme(twotone)]).pipe(
       useTemplate(getOptions({ themeSuffix: TwoTone }))
     )
   )

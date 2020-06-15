@@ -18,6 +18,10 @@ export function getSrcByTheme(theme: ThemeType): string {
   return `svg/${theme}/*.svg`;
 }
 
+export function getAntdIconSrcByTheme(theme: ThemeType): string {
+  return `svg-antd/${theme}/*.svg`;
+}
+
 export function getDocsInlinePathByTheme(theme: ThemeType): string {
   return `docs/inline-svg/${theme}`;
 }

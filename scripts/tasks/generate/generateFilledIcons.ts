@@ -3,8 +3,8 @@ import svgo from '../../plugins/svgo';
 import {
   getIdentifier,
   getSrcByTheme,
-  getInlinePathByTheme
-} from '../../build/helpers';
+  getInlinePathByTheme, getAntdIconSrcByTheme
+} from '../../build/helpers'
 import merge from 'merge-stream';
 import { singleColorSVGOConfig } from '../../build/svgo-options';
 import iconDefinition from '../../plugins/icon-definition';
@@ -29,7 +29,7 @@ const { Filled } = ThemeUpperCaseEnum;
  * 3. inline-svg/<theme>/*.svg
  */
 export default function generateFilledIcons(): NodeJS.ReadWriteStream {
-  const iconDefinitionStream = src(getSrcByTheme(filled))
+  const iconDefinitionStream = src([getSrcByTheme(filled), getAntdIconSrcByTheme(filled)])
     .pipe(svgo(singleColorSVGOConfig))
     .pipe(
       iconDefinition({
