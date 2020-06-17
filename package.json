@@ -3,6 +3,7 @@
   "version": "1.1.2",
   "description": "svg图标库",
   "main": "./lib/icons/index.js",
+  "typings": "./lib/icons/index.d.ts",
   "scripts": {
     "svg": "cross-env NODE_ENV=production gulp --require ts-node/register/transpile-only",
     "icon": "rimraf src/icons && cross-env TS_NODE_PROJECT=scripts/tsconfig.json node -r ts-node/register scripts/generate.ts --target=icon",
