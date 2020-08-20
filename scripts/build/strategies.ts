@@ -53,6 +53,7 @@ export function iconsAfter3Dot9ShouldBeResizeViewbox({
     && iconName.indexOf('wanke') == -1
     && iconName.indexOf('gf') == -1
     && iconName.indexOf('fz') == -1
+    && iconName.indexOf('zd') == -1
   ) {
     // make it immutable!
     abstractNode = {
