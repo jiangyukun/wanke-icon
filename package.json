@@ -47,5 +47,8 @@
     "ts-node": "^8.10.2",
     "typescript": "^3.9.5",
     "vinyl": "^2.2.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }
