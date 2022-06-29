@@ -58,3 +58,5 @@ export const ThemeUpperCaseEnum: {
 };
 
 export { ThemeType, ThemeTypeUpperCase } from './templates/types';
+
+export const IconPark = 'icon-park';

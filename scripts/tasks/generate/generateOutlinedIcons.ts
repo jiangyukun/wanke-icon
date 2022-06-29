@@ -29,7 +29,7 @@ const { Outlined } = ThemeUpperCaseEnum;
  * 3. inline-svg/<theme>/*.svg
  */
 export default function generateOutlinedIcons(): NodeJS.ReadWriteStream {
-  const iconDefinitionStream = src([getSrcByTheme(outlined), getAntdIconSrcByTheme(outlined)])
+  const iconDefinitionStream = src([getAntdIconSrcByTheme(outlined), getSrcByTheme(outlined)])
     .pipe(svgo(singleColorSVGOConfig))
     .pipe(
       iconDefinition({
@@ -47,6 +47,7 @@ export default function generateOutlinedIcons(): NodeJS.ReadWriteStream {
       .pipe(inlineSVG())
       .pipe(dest(getInlinePathByTheme(outlined))),
     iconDefinitionStream
+      .pipe(clone())
       .pipe(
         useTemplate({
           tplSource: resolve(__dirname, '../../build/templates/icon.ts.ejs'),

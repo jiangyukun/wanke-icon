@@ -3,5 +3,6 @@ yarn.lock
 node_modules
 src/base
 src/icons
+src/icon-park
 .idea
 inline-svg

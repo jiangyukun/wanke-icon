@@ -4,7 +4,7 @@
     "declaration": true,
     "module": "commonjs",
     "lib": ["esnext", "dom"],
-    "target": "esnext",
+    "target": "es2016",
     "moduleResolution": "node",
     "jsx": "react",
     "esModuleInterop": true
