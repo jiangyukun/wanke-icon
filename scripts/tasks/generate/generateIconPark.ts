@@ -9,7 +9,7 @@ import { IconPark } from '../../build/constants';
 export default function generateIconPark() {
   return merge(
     src(['icon-park/*.css'])
-      .pipe(dest('lib/icon-park')),
+      .pipe(dest('lib/icon-park/icons')),
     src(['icon-park/*.tsx'])
       .pipe(clearStyle())
       .pipe(
@@ -21,7 +21,7 @@ export default function generateIconPark() {
           file.extname = '.tsx';
         })
       )
-      .pipe(dest('src/icon-park'))
+      .pipe(dest('src/icon-park/icons'))
   );
 }
 

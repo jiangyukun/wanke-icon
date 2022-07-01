@@ -29,7 +29,7 @@ function getOptions({
       });
       return {
         identifier,
-        path: `./${identifier}`
+        path: `./icons/${identifier}`
       };
     }
   };

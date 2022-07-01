@@ -1,13 +1,14 @@
 {
   "name": "wanke-icon",
-  "version": "1.3.41",
+  "version": "1.3.42",
   "description": "svg图标库",
-  "main": "./lib/index.js",
-  "typings": "./lib/index.d.ts",
+  "main": "./lib/icons/index.js",
+  "typings": "./lib/icons/index.d.ts",
   "scripts": {
     "svg": "cross-env NODE_ENV=production gulp --require ts-node/register/transpile-only",
     "icon": "rimraf src/icons && cross-env TS_NODE_PROJECT=scripts/tsconfig.json node -r ts-node/register scripts/generate.ts --target=icon",
-    "build": "npm run svg && npm run icon && tsc --outDir ./lib"
+    "icon-park": "cross-env TS_NODE_PROJECT=scripts/tsconfig.json node -r ts-node/register scripts/generateIconPark.ts",
+    "build": "npm run svg && npm run icon && npm run icon-park && tsc --outDir ./lib"
   },
   "author": "",
   "license": "ISC",
